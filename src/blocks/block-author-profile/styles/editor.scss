@@ -1,0 +1,56 @@
+/**
+ * Author Profile Editor styles for the admin
+ */
+
+.dggb-block-profile {
+  margin-bottom: 0;
+}
+
+.block-editor-block-list__layout [data-type="dggb-blocks/dggb-author-profile"] {
+  margin-bottom: 1.2em;
+}
+
+.dggb-profile-image-wrap {
+  svg {
+    pointer-events: none;
+    margin: 0 auto;
+  }
+
+  .components-button:not(:disabled):not([aria-disabled="true"]):focus {
+    background: none;
+    box-shadow: none;
+  }
+}
+
+.dggb-profile-content-wrap {
+  h2.editor-rich-text__tinymce {
+    line-height: 1.2;
+  }
+
+  p.editor-rich-text__tinymce {
+    line-height: 1.6;
+  }
+}
+
+#editor .wp-block-atomic-blocks-dggb-profile-box.square .dggb-remove-image {
+  top: 5px;
+  right: 5px;
+}
+
+#editor .dggb-has-avatar {
+  .dggb-profile-image-square {
+    button {
+      top: 0;
+      left: 0;
+      height: 100%;
+    }
+
+    .dggb-change-image {
+      transition: 0.2s ease;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+/**
+ * Button styles loads on front end and back end
+ */
+
+.dggb-block-button {
+  margin: 0 0 1.2em 0;
+  position: relative;
+
+  .blocks-rich-text {
+    display: inline-flex;
+  }
+
+  .components-autocomplete {
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+.dggb-button {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1 !important;
+  background-color: #32373c;
+  border: none;
+  border-radius: 50px;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  word-break: break-word;
+  transition: 0.3s ease;
+  display: inline-block;
+
+  &:hover {
+    box-shadow: inset 0 0 200px rgba(255, 255, 255, 0.15);
+  }
+}
+
+.dggb-button-shape-square,
+input[type="submit"].dggb-button-shape-square {
+  border-radius: 0;
+}
+
+.dggb-button-shape-rounded,
+input[type="submit"].dggb-button-shape-rounded {
+  border-radius: 5px;
+}
+
+.dggb-button-shape-circular,
+input[type="submit"].dggb-button-shape-circular {
+  border-radius: 100px;
+}
+
+.dggb-button-size-small,
+input[type="submit"].dggb-button-size-small {
+  font-size: 14px;
+}
+
+.dggb-button-size-medium,
+input[type="submit"].dggb-button-size-medium {
+  font-size: 20px;
+}
+
+.dggb-button-size-large,
+input[type="submit"].dggb-button-size-large {
+  font-size: 26px;
+  padding: 0.8em 1.2em;
+}
+
+.dggb-button-size-extralarge,
+input[type="submit"].dggb-button-size-extralarge {
+  font-size: 34px;
+  padding: 0.8em 1.2em;
+}
+
+.dggb-button-right {
+  transform: translateX(-100%);
+  left: 100%;
+  position: relative;
+}
+
+.dggb-button-center {
+  margin: 0 auto;
+}

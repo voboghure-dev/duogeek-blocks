@@ -1,0 +1,55 @@
+/**
+ * Editor styles for the admin
+ */
+
+.dggb-block-drop-cap {
+  .dggb-drop-cap-text:not(:focus):first-letter {
+    float: left;
+    font-size: 75px;
+    line-height: 0.7em;
+    margin-top: 0.15em;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &.dggb-drop-cap-square .dggb-drop-cap-text:not(:focus):first-letter {
+    background: #32373c;
+    color: #fff;
+    padding: 0.2em;
+  }
+
+  &.dggb-drop-cap-border .dggb-drop-cap-text:not(:focus):first-letter {
+    color: #32373c;
+    padding: 0.2em;
+    border: solid 4px;
+  }
+
+  /* Font size styles */
+  @media only screen and (min-width: 600px) {
+    .dggb-font-size-1.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 75px;
+    }
+
+    .dggb-font-size-2.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 85px;
+    }
+
+    .dggb-font-size-3.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 95px;
+    }
+
+    .dggb-font-size-4.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 105px;
+    }
+
+    .dggb-font-size-5.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 115px;
+    }
+
+    .dggb-font-size-6.dggb-drop-cap-text:not(:focus):first-letter {
+      font-size: 125px;
+    }
+  }
+}
