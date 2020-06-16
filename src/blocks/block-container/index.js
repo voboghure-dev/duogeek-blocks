@@ -99,7 +99,7 @@ registerBlockType("dggb-blocks/dggb-container", {
     "dggb-blocks"
   ),
   icon: "editor-contract",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("container", "dggb-blocks"),
     __("section", "dggb-blocks"),

@@ -112,7 +112,7 @@ registerBlockType("dggb-blocks/dggb-button", {
   title: __("Button", "dggb-blocks"),
   description: __("Add a customizable button.", "dggb-blocks"),
   icon: "admin-links",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("button", "dggb-blocks"),
     __("link", "dggb-blocks"),

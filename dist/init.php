@@ -122,12 +122,12 @@ add_action('wp_enqueue_scripts', 'dggb_frontend_assets');
 function dggb_add_custom_block_category($categories)
 {
     $category_title = __('DuoGeek Blocks', 'dggb-blocks');
-
-    return array_merge(
+    $category_slugs = wp_list_pluck($categories, 'slug');
+    return in_array('duogeek-blocks', $category_slugs, true) ? $categories : array_merge(
         $categories,
         array(
             array(
-                'slug' => 'dggb-blocks',
+                'slug' => 'duogeek-blocks',
                 'title' => $category_title,
             ),
         )

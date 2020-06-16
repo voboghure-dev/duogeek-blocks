@@ -21,7 +21,7 @@ registerBlockType("dggb-blocks/dggb-sharing", {
     "dggb-blocks"
   ),
   icon: "share",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("sharing", "dggb-blocks"),
     __("social", "dggb-blocks"),

@@ -22,7 +22,7 @@ registerBlockType("dggb-blocks/dggb-columns", {
   title: __("Advanced Columns", "dggb-blocks"),
   description: __("Add a pre-defined column layout.", "dggb-blocks"),
   icon: "editor-table",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("column", "dggb-blocks"),
     __("grid", "dggb-blocks"),

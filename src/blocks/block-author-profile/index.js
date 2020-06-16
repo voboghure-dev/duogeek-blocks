@@ -117,7 +117,7 @@ registerBlockType("dggb-blocks/dggb-author-profile", {
     "dggb-blocks"
   ),
   icon: "admin-users",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("author", "dggb-blocks"),
     __("profile", "dggb-blocks"),

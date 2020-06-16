@@ -24,7 +24,7 @@ registerBlockType("dggb-blocks/dggb-testimonial", {
     "dggb-blocks"
   ),
   icon: "format-quote",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("testimonial", "dggb-blocks"),
     __("quote", "dggb-blocks"),

@@ -26,7 +26,7 @@ registerBlockType("dggb-blocks/dggb-post-grid", {
     "dggb-blocks"
   ),
   icon: "grid-view",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("post", "dggb-blocks"),
     __("page", "dggb-blocks"),

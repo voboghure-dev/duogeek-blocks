@@ -77,7 +77,7 @@ registerBlockType("dggb-blocks/dggb-drop-cap", {
     "dggb-blocks"
   ),
   icon: "id",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("drop cap", "dggb-blocks"),
     __("quote", "dggb-blocks"),

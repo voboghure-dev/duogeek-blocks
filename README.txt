@@ -3,7 +3,7 @@ Contributors: duogeek, voboghure
 Tags: Blocks, editor, gutenberg, gutenberg blocks, block enabled, block
 Requires at least: 5.0
 Tested up to: 5.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -74,6 +74,9 @@ Yes, you will need to have WordPress 5.0 or later installed to take advantage of
 7. Share Icons Block
 
 == Changelog ==
+
+= 0.1.1 =
+Fix: Gutenberg block slug
 
 = 0.1.0 =
 * Initial release.

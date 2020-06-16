@@ -1,14 +1,14 @@
 <?php
 /**
- * Plugin Name: DuoGeek Blocks
- * Plugin URI: https://duogeek.ca
+ * Plugin Name: DuoGeek Gutenberg Blocks
+ * Plugin URI: https://duogeek.ca/
  * Description: Gutenberg Blocks to help you with the new WordPress block editor.
- * Author: Voboghure
- * Author URI: https://voboghure.com
- * Version: 0.1.0
+ * Author: DuoGeek
+ * Author URI: https://duogeek.ca/
+ * Version: 0.1.1
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: dg-blocks
+ * Text Domain: dggb-blocks
  *
  * @package DuoGeek Gutenberg Blocks
  */

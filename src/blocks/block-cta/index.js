@@ -268,7 +268,7 @@ registerBlockType("dggb-blocks/dggb-cta", {
     "dggb-blocks"
   ),
   icon: "megaphone",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("call to action", "dggb-blocks"),
     __("cta", "dggb-blocks"),

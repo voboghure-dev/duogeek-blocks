@@ -88,7 +88,7 @@ registerBlockType("dggb-blocks/dggb-spacer", {
     "dggb-blocks"
   ),
   icon: "image-flip-vertical",
-  category: "dggb-blocks",
+  category: "duogeek-blocks",
   keywords: [
     __("spacer", "dggb-blocks"),
     __("divider", "dggb-blocks"),
